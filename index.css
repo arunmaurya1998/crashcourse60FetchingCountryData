@@ -1,0 +1,35 @@
+#navbar {
+  text-align: center;
+  margin: 20px;
+}
+#fetchButton,
+#asceButton,
+#dsceButton {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 98%;
+  margin: auto;
+  gap: 20px;
+}
+
+#container {
+  /* border: 1px solid red; */
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgb(209, 181, 145);
+  box-shadow: 4px 6px 2px 2px rgb(193, 214, 198);
+}
+
+#id,
+#rank,
+#population {
+  display: block;
+  margin-bottom: 10px;
+}
